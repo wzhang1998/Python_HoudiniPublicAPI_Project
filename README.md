@@ -1,2 +1,2 @@
 # Python_HoudiniPublicAPI
- Generative-mesh-plugin
+Unreal Engine 5.2 Python API utilities
