@@ -67,5 +67,7 @@ with unreal.ScopedSlowTask(len(path_to_import), "Batch importing Alembic files")
             num_assets_to_save = 0
 
 
-
+unreal.EditorLoadingAndSavingUtils.save_dirty_packages(
+                save_map_packages=False, save_content_packages=True
+            )
 print("Alembic import completed successfully!")
